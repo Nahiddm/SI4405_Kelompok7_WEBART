@@ -149,16 +149,16 @@
                 <h4 class="title">Shopping cart</h4>
                 <div class="single-product-item">
                     <div class="thumb">
-                        <a href="#0"><img src="assets/images/shop/shop02.jpg" alt="shop"></a>
+                        <a href="#0"><img src="assets/images/auction/art/auction-1.jpg" alt="shop"></a>
                     </div>
                     <div class="content">
-                        <h4 class="title"><a href="#0">Water Pot</a></h4>
+                        <h4 class="title"><a href="#0">Art Canvas</a></h4>
                         <div class="price"><span class="pprice">$876.00</span> <del class="dprice">$5,00.00</del></div>
                         <a href="#" class="remove-cart">Remove</a>
                     </div>
                 </div>
                 <div class="btn-wrapper text-center">
-                    <a href="#0" class="custom-button"><span>Checkout</span></a>
+                    <a href="product-details.html" class="custom-button"><span>Checkout</span></a>
                 </div>
             </div>
         </div>
@@ -167,7 +167,7 @@
 
 
      <!--============= Hero Section Starts Here =============-->
-    <div class="hero-section style-2">
+     <div class="hero-section style-2">
         <div class="container">
             <ul class="breadcrumb">
                 <li>
@@ -177,7 +177,7 @@
                     <a href="#0">My Account</a>
                 </li>
                 <li>
-                    <span>My Alerts</span>
+                    <span>Personal profile</span>
                 </li>
             </ul>
         </div>
@@ -191,18 +191,18 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-10 col-md-7 col-lg-4">
-                    <div class="dashboard-widget mb-30 mb-lg-0">
+                    <div class="dashboard-widget mb-30 mb-lg-0 sticky-menu">
                         <div class="user">
                             <div class="thumb-area">
                                 <div class="thumb">
-                                    <img src="assets/images/dashboard/user.png" alt="user">
+                                    <img src="assets/images/photo-team/nahid.jpg" alt="user">
                                 </div>
                                 <label for="profile-pic" class="profile-pic-edit"><i class="flaticon-pencil"></i></label>
                                 <input type="file" id="profile-pic" class="d-none">
                             </div>
                             <div class="content">
                                 <h5 class="title"><a href="#0">Ahmad Nahid</a></h5>
-                                <span class="username"><a href="http://pixner.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dfb5b0b7b19fb8b2beb6b3f1bcb0b2">[email&#160;protected]</a></span>
+                                <span class="username"><a href="http://pixner.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f993969197b99e94989095d79a9694">[email&#160;protected]</a></span>
                             </div>
                         </div>
                         <ul class="dashboard-menu">
@@ -210,7 +210,7 @@
                                 <a href="dashboard.html"><i class="flaticon-dashboard"></i>Dashboard</a>
                             </li>
                             <li>
-                                <a href="profile.html"><i class="flaticon-settings"></i>Personal Profile </a>
+                                <a href="#0" class="active"><i class="flaticon-settings"></i>Personal Profile </a>
                             </li>
                             <li>
                                 <a href="my-bid.html"><i class="flaticon-auction"></i>My Bids</a>
@@ -219,7 +219,7 @@
                                 <a href="winning-bids.html"><i class="flaticon-best-seller"></i>Winning Bids</a>
                             </li>
                             <li>
-                                <a href="#0" class="active"><i class="flaticon-alarm"></i>My Alerts</a>
+                                <a href="notifications.html"><i class="flaticon-alarm"></i>My Alerts</a>
                             </li>
                             <li>
                                 <a href="my-favorites.html"><i class="flaticon-star"></i>My Favorites</a>
@@ -228,94 +228,92 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <div class="dash-bid-item dashboard-widget mb-30">
-                        <div class="header">
-                            <h4 class="title mw-100">My Alerts</h4>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="dash-pro-item mb-30 dashboard-widget">
+                                <div class="header">
+                                    <h4 class="title">Personal Details</h4>
+                                    <span class="edit"><i class="flaticon-edit"></i> Edit</span>
+                                </div>
+                                <ul class="dash-pro-body">
+                                    <li>
+                                        <div class="info-name">Name</div>
+                                        <div class="info-value">Ahmad Nahid</div>
+                                    </li>
+                                    <li>
+                                        <div class="info-name">Date of Birth</div>
+                                        <div class="info-value">15-09-2001</div>
+                                    </li>
+                                    <li>
+                                        <div class="info-name">Address</div>
+                                        <div class="info-value">Cigan Nit-Nit</div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <ul class="button-area nav nav-tabs">
-                            <li>
-                                <a href="#alerts" data-toggle="tab" class="custom-button active">Alerts</a>
-                            </li>
-                            <li>
-                                <a href="#newsletters" data-toggle="tab" class="custom-button">Newsletters</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="dashboard-widget tab-content">
-                        <div class="alert-widget tab-pane show fade active" id="alerts">
-                            <ul>
-                                <li>
-                                    <input type="checkbox" id="check1" checked>
-                                    <label for="check1">
-                                        <h6 class="title">Bid Notifications</h6>
-                                        <p>Receive an email notifying you if someone else bids on an item on which you have already placed a bid.</p>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check2">
-                                    <label for="check2">
-                                        <h6 class="title">Live Auction Reminder</h6>
-                                        <p>Get a reminder that a live auction you've registered for is about
-                                            to begin.</p>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check3" checked>
-                                    <label for="check3">
-                                        <h6 class="title">Saved Items Going Live</h6>
-                                        <p>Get a reminder that items you've saved are going live in an auction.</p>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check4">
-                                    <label for="check4">
-                                        <h6 class="title">Bids Ending Soon</h6>
-                                        <p>Get a reminder when items you've bid on are going live in the next
-                                            couple days</p>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check5" checked>
-                                    <label for="check5">
-                                        <h6 class="title">Rate Your Experience</h6>
-                                        <p>Receive an email notifying you if someone else bids on an item on which you have already placed a bid.</p>
-                                    </label>
-                                </li>
-                            </ul>
+                        <div class="col-12">
+                            <div class="dash-pro-item mb-30 dashboard-widget">
+                                <div class="header">
+                                    <h4 class="title">Account Settings</h4>
+                                    <span class="edit"><i class="flaticon-edit"></i> Edit</span>
+                                </div>
+                                <ul class="dash-pro-body">
+                                    <li>
+                                        <div class="info-name">Language</div>
+                                        <div class="info-value">Indonesia</div>
+                                    </li>
+                                    <li>
+                                        <div class="info-name">Time Zone</div>
+                                        <div class="info-value"> WIB (GMT +07:00)</div>
+                                    </li>
+                                    <li>
+                                        <div class="info-name">Status</div>
+                                        <div class="info-value"><i class="flaticon-check text-success"></i> Active</div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="alert-widget tab-pane show fade" id="newsletters">
-                            <ul>
-                                <li>
-                                    <input type="checkbox" id="check6">
-                                    <label for="check6">
-                                        <h6 class="title">Auction News</h6>
-                                        <p>A roundup of the trending news and latest stories in the auction world</p>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check7" checked>
-                                    <label for="check7">
-                                        <h6 class="title">Auction Calendar</h6>
-                                        <p>A look at upcoming auctions, personalized just for you</p>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check8">
-                                    <label for="check8">
-                                        <h6 class="title">Auction Reports</h6>
-                                        <p>An in-depth look at the results from top-performing auctions Once
-                                            per month Auction Reports</p>
-                                    </label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="check9" checked>
-                                    <label for="check9">
-                                        <h6 class="title">Weekly Email</h6>
-                                        <p>Preview the upcoming week's auctions and see the latest auction news
-                                            from around the globe</p>
-                                    </label>
-                                </li>
-                            </ul>
+                        <div class="col-12">
+                            <div class="dash-pro-item mb-30 dashboard-widget">
+                                <div class="header">
+                                    <h4 class="title">Email Address</h4>
+                                    <span class="edit"><i class="flaticon-edit"></i> Edit</span>
+                                </div>
+                                <ul class="dash-pro-body">
+                                    <li>
+                                        <div class="info-name">Email</div>
+                                        <div class="info-value"><a href="http://pixner.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5c3d303e392e286f68651c3b313d3530723f3331">[email&#160;protected]</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="dash-pro-item mb-30 dashboard-widget">
+                                <div class="header">
+                                    <h4 class="title">Phone</h4>
+                                    <span class="edit"><i class="flaticon-edit"></i> Edit</span>
+                                </div>
+                                <ul class="dash-pro-body">
+                                    <li>
+                                        <div class="info-name">Mobile</div>
+                                        <div class="info-value">+62 812-1787-2447</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="dash-pro-item dashboard-widget">
+                                <div class="header">
+                                    <h4 class="title">Security</h4>
+                                    <span class="edit"><i class="flaticon-edit"></i> Edit</span>
+                                </div>
+                                <ul class="dash-pro-body">
+                                    <li>
+                                        <div class="info-name">Password</div>
+                                        <div class="info-value">xxxxxxxxxxxxxxxx</div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -450,7 +448,7 @@
                                 <a href="#0"><img src="assets/images/footer/mastercard.png" alt="footer"></a>
                             </li>
                         </ul>
-                        <div class="copyright"><p>&copy; Copyright 2022 | <a href="#0">WebArt</a> By <a href="#0">Kelompok 6</a></p></div>
+                        <div class="copyright"><p>&copy; Copyright 2022 | <a href="#0">WebArt</a> By <a href="#0">Kelompok 7</a></p></div>
                     </div>
                 </div>
             </div>
