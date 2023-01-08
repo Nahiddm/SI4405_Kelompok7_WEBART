@@ -1,10 +1,10 @@
 # SI4405_Kelompok7_WEBART
 <ul>
-  <h5>Tugas Besar Mata Kuliah Pengembangan Aplikasi Website Dengan Tema : Lelang Karya Seni</h5>
+  <h4>Tugas Besar Mata Kuliah Pengembangan Aplikasi Website Dengan Tema : Lelang Karya Seni</h4>
 </ul>
 <ul>
-  <li>Demo Website :</li>
-  <li>Link Hosting HTML (https://webart1.fahrezaanggrian.repl.co/)</li>
-  <li>Link Hosting Laravel (https://projectwebart.000webhostapp.com/)</li>
+  <h6>Demo Website :</h6>
+  <h6>Link Hosting HTML (https://webart1.fahrezaanggrian.repl.co/)</h6>
+  <h6>Link Hosting Laravel (https://projectwebart.000webhostapp.com/)</h6>
 </ul>
 Thank You :)
