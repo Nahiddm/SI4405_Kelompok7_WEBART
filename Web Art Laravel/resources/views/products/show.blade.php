@@ -11,9 +11,9 @@
                 </ul>
             </div>
             <div class="bg_img hero-bg" data-background="assets/images/banner/baige4.jpeg"></div>
-            <div class="banner-shape d-none d-lg-block">
+            {{-- <div class="banner-shape d-none d-lg-block">
                 <img src="{{ asset('assets/css/img/banner-shape.png') }}" alt="css">
-            </div>
+            </div> --}}
         </div>
         <!--============= Hero Section Ends Here =============-->
 

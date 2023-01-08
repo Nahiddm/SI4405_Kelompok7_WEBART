@@ -31,7 +31,7 @@
                         <div class="user">
                             <div class="thumb-area">
                                 <div class="thumb">
-                                    <img src="{{ asset('assets/images/photo-team/blank-profile.png') }}" alt="user">
+                                    <img src="{{ asset('assets/images/photo-team/profil.jpeg') }}" alt="user">
                                 </div>
                                 <label for="profile-pic" class="profile-pic-edit"><i class="flaticon-pencil"></i></label>
                                 <input type="file" id="profile-pic" class="d-none">
@@ -203,7 +203,7 @@ function konfirmasiSimpan()
         cancelButtonText: "Batal"
     }).then((result) => {
         if(result.value) {
-            form.submit();
+            window.location = ('home');
         } else {
             Swal.fire("Informasi","Pembayaran Batal","error");
         }

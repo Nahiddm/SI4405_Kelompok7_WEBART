@@ -16,13 +16,10 @@
         </li>
       </ul>
     </div>
-    <div
-      class="bg_img hero-bg"
-      data-background="assets/images/banner/baige4.jpeg"
-    ></div>
+    <div class="bg_img hero-bg" data-background="{{asset('assets/images/banner/baige4.jpeg')}}"></div>
     <div class="banner-shape d-none d-lg-block">
-      <img src="{{ asset('assets/css/img/banner-shape.png') }}" alt="css" />
-    </div>
+      <img src="{{ asset('assets/css/img/banner-shape.png') }}" alt="css">
+  </div>
   </div>
   <!--============= Hero Section Ends Here =============-->
 
@@ -47,26 +44,26 @@
                         @csrf
                         @method("PUT")
                         <div class="form-group mb-30">
-                            <label for="name"><i class="far fa-envelope"></i></label>
+                            <label for="name"><i class="fas fa-pen"></i></label>
                             <input type="text" id="name" name="name" placeholder="Product Name" value="{{ $product->name ?? old('name') }}">
                         </div>
                         <div class="form-group mb-30">
-                            <label for="description"><i class="far fa-envelope"></i></label>
+                            <label for="description"><i class="far fa-comments"></i></label>
                             <input type="text" id="description" name="description" placeholder="Description" value="{{ $product->description ?? old('description') }}">
                         </div>
                         <div class="mb-30">
                             <input class="pt-10" type="file" placeholder="tes" name="product_image">
                         </div>
                         <div class="form-group mb-30">
-                            <label for="open_price"><i class="far fa-envelope"></i></label>
+                            <label for="open_price"><i class="fas fa-tags"></i></label>
                             <input type="text" id="open_price" name="open_price" placeholder="Open Price" value="{{ $product->open_price ?? old('open_price') }}">
                         </div>
                         <div class="form-group mb-30">
-                            <label for="start_date"><i class="far fa-envelope"></i></label>
+                            <label for="start_date"><i class="far fa-clock"></i></label>
                             <input type="date" id="start_date" name="start_date" placeholder="Start Date" value="{{ $product->start_date ?? old('start_date') }}">
                         </div>
                         <div class="form-group mb-30">
-                            <label for="end_date"><i class="far fa-envelope"></i></label>
+                            <label for="end_date"><i class="far fa-clock"></i></label>
                             <input type="date" id="end_date" name="end_date" placeholder="End Date" value="{{ $product->end_date ?? old('end_date') }}">
                         </div>
                         <div class="form-group mb-0">
